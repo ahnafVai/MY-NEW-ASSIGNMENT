@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -74,6 +75,7 @@ header {
   justify-content: center;
   gap: 60px;
 }
+
 .round h4 {
   text-decoration: underline;
   padding-top: 10px;
@@ -88,20 +90,24 @@ header {
   padding: 40px;
   padding-bottom: 0px;
 }
+
 .imgs img {
   width: 100%;
   height: 100%;
   -o-object-fit: contain;
   object-fit: contain;
 }
+
 .imgs.first-img {
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
 }
+
 .imgs.second-img {
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
 }
+
 .imgs.third-img {
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
@@ -126,19 +132,23 @@ header {
 .deal-text {
   text-align: center;
 }
+
 .deal-text h1 {
   color: #272727;
   font-size: 40px;
 }
+
 .deal-text h1 span {
   color: #e55473;
 }
+
 .deal-text p {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   line-height: 30px;
   padding: 15px 0px;
 }
+
 .deal-text button {
   display: inline-flex;
   padding: 15px 40px;
@@ -153,28 +163,34 @@ header {
 .instagram {
   width: 100%;
 }
+
 .instagram .instagram-gap {
   width: 80%;
   margin: auto;
 }
+
 .instagram .instagram-up {
   text-align: center;
 }
+
 .instagram .instagram-up h1 {
   color: #272727;
   text-align: center;
   font-size: 40px;
 }
+
 .instagram .instagram-up p {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
   font-size: 18px;
 }
+
 .instagram .instagram-img {
   display: flex;
   gap: 10px;
   padding: 40px 0px;
 }
+
 .instagram .instagram-img img {
   width: 100%;
   height: 400px;
@@ -185,14 +201,17 @@ header {
 .roses {
   margin: 40px 0px;
 }
+
 .roses .roses-gap {
   width: 80%;
   margin: auto;
 }
+
 .roses .roses-up {
   text-align: center;
   padding: 20px 0px;
 }
+
 .roses .roses-up h1 {
   color: #272727;
   text-align: center;
@@ -200,16 +219,19 @@ header {
   font-weight: bolder;
   padding: 10px 0px;
 }
+
 .roses .roses-up p {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
   font-size: 18px;
 }
+
 .roses .roses-img {
   display: flex;
   gap: 10px;
   padding: 10px 0px;
 }
+
 .roses .roses-img img {
   width: 100%;
   height: 400px;
@@ -221,7 +243,7 @@ header {
   width: 80%;
   height: 40vh;
   margin: auto;
-  background-image: url("/img/Rectangle 9.png");
+  background-image: url("img/Rectangle 9.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -232,25 +254,30 @@ header {
   align-items: center;
   justify-content: center;
 }
+
 .subscribe h1 {
   color: #272727;
   font-size: 40px;
 }
+
 .subscribe p {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
 }
+
 .subscribe form {
   display: flex;
   justify-content: center;
   gap: 5px;
 }
+
 .subscribe form .email {
   border: none;
   padding: 12px;
   background: white;
   width: 700px;
 }
+
 .subscribe form .button {
   border: none;
   padding: 15px 20px;
@@ -267,14 +294,17 @@ footer {
   padding: 100px;
   margin-top: 50px;
 }
+
 footer .footer-text {
   text-align: center;
 }
+
 footer p {
   color: rgba(255, 255, 255, 0.9);
   font-size: 18px;
   padding: 10px 0px;
 }
+
 footer span {
   color: rgba(255, 255, 255, 0.4);
   font-size: 16px;
