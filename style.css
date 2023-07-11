@@ -1,0 +1,46 @@
+.banner {
+    background-color: #E554731A;
+    width: 1920px;
+    height: 850px;
+    display: flex
+}
+
+.banner {
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+.banner img {
+
+    height: 800px;
+    width: 635px;
+
+}
+
+.greet {
+    font-size: 80px;
+
+
+}
+
+.little {
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+
+    font-size: 18px;
+
+
+    line-height: 30px;
+}
+
+.button1 {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: white;
+    border: 0px;
+}
