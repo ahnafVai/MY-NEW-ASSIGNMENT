@@ -1,24 +1,33 @@
 .banner {
     background-color: #E554731A;
+
+
     width: 1920px;
     height: 850px;
-    display: flex
-}
-
-.banner {
+    display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 .banner img {
 
     height: 800px;
     width: 635px;
+    padding-left: 10px;
+    padding-top: 50px;
+
 
 }
+
+
 
 .greet {
     font-size: 80px;
@@ -29,7 +38,7 @@
 .little {
     margin-top: 10px;
     margin-bottom: 40px;
-
+    color: rgba(39, 39, 39, 0.60);
 
     font-size: 18px;
 
@@ -43,4 +52,52 @@
     padding: 20px 43px;
     color: white;
     border: 0px;
+}
+
+.sfirst {
+    text-align: center;
+    padding-top: 180px;
+}
+
+.second {
+    font-size: 50px
+}
+
+.round {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.cap {
+    text-align: center;
+    display: flex;
+}
+
+
+
+.first-img {
+    border: 1px solid rgb(0, 0, 0);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding: 20px;
+    height: 450px;
+}
+
+.second-img {
+    border: 1px solid rgb(0, 0, 0);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding: 20px;
+    height: 450px;
+}
+
+.third-img {
+    border: 1px solid rgb(0, 0, 0);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding: 20px;
+    height: 450px;
 }
