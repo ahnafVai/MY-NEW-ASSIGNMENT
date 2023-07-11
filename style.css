@@ -230,13 +230,15 @@ header {
   display: flex;
   gap: 10px;
   padding: 10px 0px;
+
 }
 
 .roses .roses-img img {
-  width: 100%;
+  width: 300px;
   height: 400px;
   -o-object-fit: cover;
   object-fit: cover;
+
 }
 
 .subscribe {
@@ -284,6 +286,8 @@ header {
   border-radius: 8px;
   background: #e55473;
 }
+
+
 
 footer {
   background: #111010;
